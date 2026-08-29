@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Memoria ✨
 
-## Getting Started
+Aplikasi web interaktif yang dibangun menggunakan ekosistem Next.js. Proyek ini menonjolkan implementasi antarmuka pengguna (UI) yang modern, performa pemuatan yang cepat, dan desain yang responsif di berbagai perangkat.
 
-First, run the development server:
+## Live Demo
+Aplikasi ini telah di-*deploy* menggunakan infrastruktur Vercel dan dapat diakses secara publik melalui tautan berikut:
+* **Live Website:** [memoria-place-new.vercel.app](https://memoria-place-new.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack & Alat
+* **Core Framework:** [Next.js](https://nextjs.org/)
+* **Frontend:** React.js
+* **Font Optimization:** `next/font` (Geist Font Family)
+* **Deployment & Hosting:** Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sorotan Pengembangan (Frontend)
+* **Responsive Design:** Tata letak yang beradaptasi dengan mulus pada layar *mobile*, *tablet*, maupun *desktop*.
+* **Modern UI Interaction:** Implementasi komponen antarmuka yang rapi dan intuitif untuk kenyamanan pengguna.
+* **Performa Optimal:** Memanfaatkan fitur bawaan Next.js untuk optimasi aset dan *rendering* halaman yang cepat.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Instalasi Lokal (Development)
+Untuk menjalankan proyek ini secara lokal di komputer Anda untuk keperluan pengembangan atau pengujian:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Instalasi Dependensi:**
+   Buka terminal di dalam folder proyek, lalu jalankan perintah:
+   ```bash
+   npm install
+   # atau yarn install / pnpm install
